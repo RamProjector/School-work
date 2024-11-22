@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-  public class 2da {
+  public class TwoDa {
     public static void main(String[] args) {
         
         Scanner scanner = new Scanner(System.in);
