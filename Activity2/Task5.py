@@ -12,7 +12,10 @@ class Employee:
         print(f"Name: {self.name}\nPosition: {self.position}\nSalary: ${self.salary}")
 
 
-employee = Employee("Ako", "Technician", 90000)
+employee = Employee("Ryan Reynolds", "Assassin", 40000)
+employee.display_employee()
 
-employee.give_raise(60000)
+g_r = int(input("\nEnter Amount of raise: "))
+employee.give_raise(g_r) 
+
 employee.display_employee()
